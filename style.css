@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: cyan;
+}
+
+header{
+    background-color: cyan;
+    padding: 2%;
+}
+
+header h1{
+    font-size: 80px
+}
+
+.center-pad{
+    text-align: center;
+}
+
+
+.pass-gen{
+    border-bottom: solid;
+    border-color: cyan;  
+    position: absolute;
+}
+
+.content{
+    background-color: white;
+    padding: 20px;
+}
+
+.pass-gen h1{
+    float: left;
+    
+}
+
+.secure-pass{
+    border: dotted;
+    border-color: black;
+    padding: 10% 0;
+    margin: 80px;
+    background-color: #3AAED8;
+}
+
+.button{
+    position: relative;
+    border-top: solid;
+    margin: 0 7%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.gen-button{
+    border-radius: 20px;
+    background-color: lightskyblue;
+    padding: 20px;
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+}
+
+.gen-button:hover{
+    background-color: goldenrod;
+}
+
+#password{
+    overflow-wrap: break-word;
+}
